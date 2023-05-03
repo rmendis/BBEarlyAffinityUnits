@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/24/2022 8:48:24 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_CNDR</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_CNDR</UnitType>
+			</Where>
+			<Set>
+				<Level>1</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CNDR_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>2</HarmonyLevel>
+				<SupremacyLevel>8</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CNDR_1P</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>8</SupremacyLevel>
+				<PurityLevel>2</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CNDR_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>10</SupremacyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

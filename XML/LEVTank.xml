@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 11:24:46 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_LEV_TANK</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_SERVOMACHINERY</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_LEV_TANK</UnitType>
+			</Where>
+			<Set>
+				<Level>6</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_TANK_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>4</HarmonyLevel>
+				<PurityLevel>12</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_TANK_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>4</SupremacyLevel>
+				<PurityLevel>12</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_TANK_1P</Type>
+			</Where>
+			<Set>
+				<PurityLevel>14</PurityLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

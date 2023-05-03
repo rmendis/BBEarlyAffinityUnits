@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2022 4:02:13 PM -->
+<GameData>
+	<UnitUpgradePerkChoices>
+		<Update>
+			<Where>
+				<UpgradeType>UNITUPGRADE_MARINE_1</UpgradeType>
+				<PerkType>UNITPERK_HEALING_1</PerkType>
+			</Where>
+			<Set>
+				<PerkType>UNITPERK_STRONG_AGAINST_ANTI_CAV</PerkType>
+			</Set>
+		</Update>
+	</UnitUpgradePerkChoices>
+	<UnitPerks>
+		<Row>
+			<Type>UNITPERK_STRONG_AGAINST_ANTI_CAV</Type>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>PERK_ATLAS</IconAtlas>
+			<Help>+50% strength vs. cavalry</Help>
+			<Description>+50% strength vs. cavalry</Description>
+		</Row>
+	</UnitPerks>
+	<UnitPerks_CombatClassMods>
+		<Row>
+			<UnitPerkType>UNITPERK_STRONG_AGAINST_ANTI_CAV</UnitPerkType>
+			<CombatClassType>UNITCOMBAT_MOUNTED</CombatClassType>
+			<CombatMod>50</CombatMod>
+		</Row>
+	</UnitPerks_CombatClassMods>
+</GameData>

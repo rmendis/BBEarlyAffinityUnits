@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 3:08:39 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_AEGIS</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_TERRAFORMING</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_AEGIS</UnitType>
+			</Where>
+			<Set>
+				<Level>4</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_AEGIS_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>3</HarmonyLevel>
+				<PurityLevel>10</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_AEGIS_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>3</SupremacyLevel>
+				<PurityLevel>10</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_AEGIS_1P</Type>
+			</Where>
+			<Set>
+				<PurityLevel>12</PurityLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

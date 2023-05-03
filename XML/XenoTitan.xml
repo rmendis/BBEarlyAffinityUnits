@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2022 8:24:52 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_XENO_TITAN</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_ALIEN_DOMESTICATION</PrereqTech>
+				<CoastalWalk>1</CoastalWalk>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_XENO_TITAN</UnitType>
+			</Where>
+			<Set>
+				<Level>9</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_TITAN_1S</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>14</HarmonyLevel>
+				<SupremacyLevel>5</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_TITAN_1P</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>14</HarmonyLevel>
+				<PurityLevel>5</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_TITAN_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>16</HarmonyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

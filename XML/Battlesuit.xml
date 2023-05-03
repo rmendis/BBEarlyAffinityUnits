@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/24/2022 7:12:49 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_BATTLESUIT</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_COMPUTING</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_BATTLESUIT</UnitType>
+			</Where>
+			<Set>
+				<Level>1</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_BATTLESUIT_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>2</HarmonyLevel>
+				<PurityLevel>8</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_BATTLESUIT_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>2</SupremacyLevel>
+				<PurityLevel>8</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_BATTLESUIT_1P</Type>
+			</Where>
+			<Set>
+				<PurityLevel>10</PurityLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

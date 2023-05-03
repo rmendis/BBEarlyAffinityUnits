@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 11:19:25 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_ROCKTOPUS</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_ALIEN_ETHICS</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_ROCKTOPUS</UnitType>
+			</Where>
+			<Set>
+				<Level>6</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ROCKTOPUS_1S</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>12</HarmonyLevel>
+				<SupremacyLevel>4</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ROCKTOPUS_1P</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>12</HarmonyLevel>
+				<PurityLevel>4</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ROCKTOPUS_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>14</HarmonyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

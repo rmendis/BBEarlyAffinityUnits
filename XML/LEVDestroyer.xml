@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2022 8:20:28 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_LEV_DESTROYER</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_MOBILE_LEV</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_LEV_DESTROYER</UnitType>
+			</Where>
+			<Set>
+				<Level>9</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_DESTROYER_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>5</HarmonyLevel>
+				<PurityLevel>14</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_DESTROYER_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>5</SupremacyLevel>
+				<PurityLevel>14</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_LEV_DESTROYER_1P</Type>
+			</Where>
+			<Set>
+				<PurityLevel>16</PurityLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

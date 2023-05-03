@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/24/2022 8:46:01 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_XENO_SWARM</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_ALIEN_SCIENCES</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_XENO_SWARM</UnitType>
+			</Where>
+			<Set>
+				<Level>1</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_SWARM_1S</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>8</HarmonyLevel>
+				<SupremacyLevel>2</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_SWARM_1P</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>8</HarmonyLevel>
+				<PurityLevel>2</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_SWARM_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>10</HarmonyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

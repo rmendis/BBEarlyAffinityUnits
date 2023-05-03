@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 11:27:51 PM -->
+<GameData>
+	<!-- No change in required tech -->
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_SABR</UnitType>
+			</Where>
+			<Set>
+				<Level>6</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_SABR_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>4</HarmonyLevel>
+				<SupremacyLevel>12</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_SABR_1P</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>12</SupremacyLevel>
+				<PurityLevel>4</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_SABR_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>14</SupremacyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

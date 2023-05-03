@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 2:55:52 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_XENO_CAVALRY</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_ALIEN_ADAPTATION</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_XENO_CAVALRY</UnitType>
+			</Where>
+			<Set>
+				<Level>4</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_CAVALRY_1S</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>10</HarmonyLevel>
+				<SupremacyLevel>3</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_CAVALRY_1P</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>10</HarmonyLevel>
+				<PurityLevel>3</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_XENO_CAVALRY_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>12</HarmonyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

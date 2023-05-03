@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2022 8:28:26 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_ANGEL</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_BALLISTIC_LEV</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_ANGEL</UnitType>
+			</Where>
+			<Set>
+				<Level>9</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ANGEL_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>5</HarmonyLevel>
+				<SupremacyLevel>14</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ANGEL_1P</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>14</SupremacyLevel>
+				<PurityLevel>5</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_ANGEL_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>16</SupremacyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

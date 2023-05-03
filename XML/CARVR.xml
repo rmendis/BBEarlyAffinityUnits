@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2022 3:17:41 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where>
+				<Type>UNIT_CARVR</Type>
+			</Where>
+			<Set>
+				<PrereqTech>TECH_TACTICAL_ROBOTICS</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_AffinityPrereqs>
+		<Update>
+			<Where>
+				<UnitType>UNIT_CARVR</UnitType>
+			</Where>
+			<Set>
+				<Level>4</Level>
+			</Set>
+		</Update>
+	</Unit_AffinityPrereqs>
+	<UnitUpgrades>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CARVR_1H</Type>
+			</Where>
+			<Set>
+				<HarmonyLevel>3</HarmonyLevel>
+				<SupremacyLevel>10</SupremacyLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CARVR_1P</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>10</SupremacyLevel>
+				<PurityLevel>3</PurityLevel>
+			</Set>
+		</Update>
+		<Update>
+			<Where>
+				<Type>UNITUPGRADE_CARVR_1S</Type>
+			</Where>
+			<Set>
+				<SupremacyLevel>12</SupremacyLevel>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>
