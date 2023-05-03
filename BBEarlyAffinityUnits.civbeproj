@@ -5,7 +5,7 @@
     <ProjectGuid>{37cf6a02-9fb7-4554-8a8c-6a3a5ce78b29}</ProjectGuid>
     <Name>BB's Early Affinity Units</Name>
     <Guid>79606b66-4f85-4578-bcf3-e1ff694d8355</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>5</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Affinity units appear ealier in game with reduced affinity requirements as well as appearing in earlier tech.</Teaser>
     <Description>Affinity units appear ealier in game with reduced affinity requirements as well as appearing in earlier tech.</Description>
