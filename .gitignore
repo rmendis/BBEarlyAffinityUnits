@@ -2,3 +2,4 @@
 *.modinfo
 Build/
 Packages/
+*.civbesuo
