@@ -1,0 +1,4 @@
+
+*.modinfo
+Build/
+Packages/
